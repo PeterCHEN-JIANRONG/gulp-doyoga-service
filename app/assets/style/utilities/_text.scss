@@ -1,0 +1,33 @@
+// h1 - 36px 
+// h2 - 32px 
+// h3 - 28px 
+// h4 - 24px 
+// h5 - 20px 
+// h6 - 16px 
+
+// md 
+@include media-breakpoint-up(md) {
+  .h1-md {
+    font-size: $font-size-base * 2.25;
+  }
+
+  .h2-md {
+    font-size: $font-size-base * 2;
+  }
+
+  .h3-md {
+    font-size: $font-size-base * 1.75;
+  }
+
+  .h4-md {
+    font-size: $font-size-base * 1.5;
+  }
+
+  .h5-md {
+    font-size: $font-size-base * 1.25;
+  }
+
+  .h6-md {
+    font-size: $font-size-base;
+  }
+}
