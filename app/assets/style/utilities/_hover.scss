@@ -1,3 +1,7 @@
+.hover-secondary-1:hover {
+  color: lighten($secondary, 10%) !important;
+}
+
 .hover-dark-1:hover {
   color: lighten($dark, 20%) !important;
 }
