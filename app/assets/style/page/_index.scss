@@ -1,0 +1,10 @@
+.ms-off {
+  @include media-breakpoint-up(md) {
+    margin-left: -60px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-left: -95px;
+  }
+
+}

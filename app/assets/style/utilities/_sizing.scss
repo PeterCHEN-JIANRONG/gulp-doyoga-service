@@ -10,6 +10,10 @@
   height: 420px;
 }
 
+.h-40s {
+  height: 628px;
+}
+
 // md
 @include media-breakpoint-up(md) {
   .h-md-15s {
@@ -22,4 +26,25 @@
   .h-lg-26s {
     height: 420px;
   }
+}
+
+// square 正方形
+.square-3s {
+  height: 48px;
+  width: 48px;
+}
+
+.square-4s {
+  height: 60px;
+  width: 60px;
+}
+
+.square-5s {
+  height: 68px;
+  width: 68px;
+}
+
+.square-6s {
+  height: 94px;
+  width: 94px;
 }
