@@ -3,3 +3,23 @@
 .w-6s {
   width: $spacer * 6;
 }
+
+
+// height
+.h-26s {
+  height: 420px;
+}
+
+// md
+@include media-breakpoint-up(md) {
+  .h-md-15s {
+    height: 252px;
+  }
+}
+
+// lg
+@include media-breakpoint-up(lg) {
+  .h-lg-26s {
+    height: 420px;
+  }
+}
