@@ -1,7 +1,145 @@
-.index__h1 {
-  color: #00cc99;
-  font-size: 20px;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap");
+.font-noto {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.w-6s {
+  width: 6rem;
+}
+
+.h-26s {
+  height: 420px;
+}
+
+.h-40s {
+  height: 628px;
+}
+
+@media (min-width: 768px) {
+  .h-md-15s {
+    height: 252px;
+  }
+}
+
+@media (min-width: 992px) {
+  .h-lg-26s {
+    height: 420px;
+  }
+}
+
+.square-3s {
+  height: 48px;
+  width: 48px;
+}
+
+.square-4s {
+  height: 60px;
+  width: 60px;
+}
+
+.square-5s {
+  height: 68px;
+  width: 68px;
+}
+
+.square-6s {
+  height: 94px;
+  width: 94px;
+}
+
+@media (min-width: 992px) {
+  .position-lg-absolute {
+    position: absolute;
+  }
+  .translate-lg-middle {
+    -webkit-transform: translate(-50%, -50%) !important;
+        -ms-transform: translate(-50%, -50%) !important;
+            transform: translate(-50%, -50%) !important;
+  }
+}
+
+.hover-secondary-1:hover {
+  color: #a79697 !important;
+}
+
+.hover-dark-1:hover {
+  color: #a3a3a3 !important;
+}
+
+.hover-white-1:hover {
+  color: #cccccc !important;
+}
+
+.hover-img-extend-1 {
+  -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+
+.hover-img-extend-1:hover {
+  -webkit-transform: scale(1.2, 1.2);
+      -ms-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.img-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.rounded-1s {
+  border-radius: 1rem;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
   font-weight: 400;
+  line-height: 1.5;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  min-height: 560px;
+  background: url(../images/banner-1.jpg);
+  background-size: cover;
+  background-position: 50% 100%;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    min-height: 582px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ms-off {
+    margin-left: -60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .ms-off {
+    margin-left: -95px;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */
