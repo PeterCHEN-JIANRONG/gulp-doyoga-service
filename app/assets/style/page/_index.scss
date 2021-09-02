@@ -6,10 +6,13 @@
   @include media-breakpoint-up(lg) {
     margin-left: -95px;
   }
-
 }
 
-.relax {
+.community-list {
+  z-index: 1;
+}
+
+.block-py {
   padding-top: 48px;
   padding-bottom: 48px;
 
@@ -22,7 +25,9 @@
     padding-top: 64px;
     padding-bottom: 64px;
   }
+}
 
+.relax {
   .img {
     &-primary {
       height: 210px;
@@ -45,6 +50,76 @@
 
       @include media-breakpoint-up (lg) {
         height: 207px;
+      }
+    }
+  }
+}
+
+.featured {
+  .container-custom {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+
+    @media (min-width: 576px) {
+      max-width: 540px;
+    }
+
+    @media (min-width: 768px) {
+      max-width: 720px;
+    }
+
+    @media (min-width: 992px) {
+      max-width: 100%;
+    }
+  }
+
+  .swiper-wrapper {
+    flex-wrap: nowrap !important;
+
+    @media (max-width: 992px) {
+
+      flex-wrap: wrap !important;
+    }
+  }
+
+  .swiper-slide {
+    width: 100%;
+  }
+
+  @media (max-width: 992px) {
+    .swiper-slide {
+      width: 48%;
+      margin: 0.5rem 1%;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .position-sm-absolute {
+      position: absolute;
+    }
+
+    .course-title {
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+    }
+  }
+
+  .mySwiper {
+    img {
+      height: 165px;
+
+      @include media-breakpoint-up(sm) {
+        height: 150px;
+        width: 150px;
+      }
+
+      @include media-breakpoint-up(lg) {
+        height: 445px;
+        width: 445px;
       }
     }
   }
