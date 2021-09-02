@@ -1,3 +1,30 @@
 .rounded-1s {
   border-radius: 1rem;
 }
+
+.rounded-top-1s {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+// md
+@include media-breakpoint-up(md) {
+  .rounded-md-start {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 0;
+  }
+}
+
+// lg
+@include media-breakpoint-up(lg) {
+  .rounded-md-top {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
