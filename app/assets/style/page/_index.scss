@@ -8,3 +8,44 @@
   }
 
 }
+
+.relax {
+  padding-top: 48px;
+  padding-bottom: 48px;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .img {
+    &-primary {
+      height: 210px;
+
+      @include media-breakpoint-up (md) {
+        height: 266px;
+      }
+
+      @include media-breakpoint-up (lg) {
+        height: 444px;
+      }
+    }
+
+    &-secondary {
+      height: 210px;
+
+      @include media-breakpoint-up (md) {
+        height: 117px;
+      }
+
+      @include media-breakpoint-up (lg) {
+        height: 207px;
+      }
+    }
+  }
+}
