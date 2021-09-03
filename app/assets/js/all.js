@@ -4,7 +4,7 @@ $(function () {
 
 
 // swiper
-// course-swiper
+// swiper-course
 (function () {
   'use strict';
   // breakpoint where swiper will be destroyed
@@ -27,7 +27,7 @@ $(function () {
     }
   };
   const enableSwiper = function () {
-    mySwiper = new Swiper('.course-swiper', {
+    mySwiper = new Swiper('.swiper-course', {
       slidesPerView: 1.5,
       spaceBetween: 30,
     });
@@ -39,3 +39,28 @@ $(function () {
   breakpointChecker();
 })(); /* IIFE end */
 
+
+var swiper = new Swiper(".swiper-customer", {
+  slidesPerView: 1,
+  grid: {
+    rows: 3,
+    fill: 'row',
+  },
+  spaceBetween: 8,
+  breakpoints: {
+    768: {
+      slidesPerView: 2.2,
+      grid: {
+        rows: 2,
+      },
+      spaceBetween: 16,
+    },
+    992: {
+      slidesPerView: 3,
+      grid: {
+        rows: 2,
+      },
+      spaceBetween: 30
+    },
+  }
+});

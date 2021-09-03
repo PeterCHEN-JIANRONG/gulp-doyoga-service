@@ -57,7 +57,7 @@
   }
 
   .featured {
-    .container-custom {
+    .container-course {
       width: 100%;
       padding-right: 15px;
       padding-left: 15px;
@@ -105,7 +105,7 @@
       }
     }
 
-    .course-swiper {
+    .swiper-course {
       img {
         height: 165px;
 
@@ -120,5 +120,34 @@
         }
       }
     }
+  }
+
+  .customer-feedback {
+
+    // .container-customer {
+    //   width: 100%;
+    //   padding-right: 15px;
+    //   padding-left: 15px;
+    //   margin: 0 auto;
+
+    // @include media-breakpoint-up(sm) {
+    //   max-width: 540px;
+    // }
+
+    // @include media-breakpoint-up(md) {
+    //   max-width: 720px;
+    // }
+
+    //   @include media-breakpoint-up(lg) {
+    //     max-width: 960px;
+    //   }
+    // }
+
+    .swiper-slide {
+      // background: #fff;
+      display: flex;
+      justify-content: center;
+    }
+
   }
 }
