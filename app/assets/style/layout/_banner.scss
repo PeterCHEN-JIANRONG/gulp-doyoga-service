@@ -1,11 +1,12 @@
 .banner {
-  // min-height: calc(100vh - 83.37px);
-  min-height: 560px;
+  min-height: calc(100vh - 83.37px);
+  // min-height: 560px;
   background: url(../images/banner-1.jpg);
   background-size: cover;
   background-position: 50% 100%;
+  background-attachment: fixed;
 
   @include media-breakpoint-up(md) {
-    min-height: 582px;
+    // min-height: 582px;
   }
 }
