@@ -1,3 +1,10 @@
+// md
+@include media-breakpoint-up(sm) {
+  .position-sm-absolute {
+    position: absolute;
+  }
+}
+
 // lg
 @include media-breakpoint-up(lg) {
   .position-lg-absolute {

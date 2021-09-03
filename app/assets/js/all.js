@@ -2,6 +2,9 @@ $(function () {
   console.log('Hello Bootstrap5');
 });
 
+
+// swiper
+// course-swiper
 (function () {
   'use strict';
   // breakpoint where swiper will be destroyed
@@ -24,7 +27,7 @@ $(function () {
     }
   };
   const enableSwiper = function () {
-    mySwiper = new Swiper('.swiper-container', {
+    mySwiper = new Swiper('.course-swiper', {
       slidesPerView: 1.5,
       spaceBetween: 30,
     });
@@ -35,3 +38,4 @@ $(function () {
   // kickstart
   breakpointChecker();
 })(); /* IIFE end */
+
