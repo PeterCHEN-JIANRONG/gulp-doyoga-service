@@ -1,0 +1,14 @@
+.nav-reserve {
+  .nav-link {
+    background: $light;
+  }
+
+  .active {
+    background: $secondary;
+    color: $white;
+
+    &:hover {
+      color: darken($color: white, $amount: 20%);
+    }
+  }
+}
