@@ -131,6 +131,12 @@
   }
 }
 
+@media (min-width: 992px) {
+  .bg-lg-white {
+    background-color: white !important;
+  }
+}
+
 body {
   font-family: 'Noto Sans TC', sans-serif;
   font-weight: 400;
@@ -152,17 +158,36 @@ a {
   text-decoration: none;
 }
 
-.banner {
-  min-height: 560px;
-  background: url(../images/banner-1.jpg);
-  background-size: cover;
-  background-position: 50% 100%;
+.swiper-level .card-icon {
+  color: #907A7B;
+}
+
+.swiper-level .active {
+  border: 4px solid white;
+}
+
+.swiper-level .active .card-icon {
+  color: white;
 }
 
 @media (min-width: 768px) {
-  .banner {
-    min-height: 582px;
+  .swiper-level .card {
+    min-height: 287px;
   }
+}
+
+@media (min-width: 1200px) {
+  .swiper-level .card {
+    min-height: auto;
+  }
+}
+
+.banner {
+  min-height: calc(100vh - 83.37px);
+  background: url(../images/banner-1.jpg);
+  background-size: cover;
+  background-position: 50% 100%;
+  background-attachment: fixed;
 }
 
 @media (min-width: 768px) {
@@ -321,6 +346,23 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.nav-reserve .nav-link {
+  background: #F5F0E7;
+}
+
+.nav-reserve .active {
+  background: #907A7B;
+  color: #fff;
+}
+
+.nav-reserve .active:hover {
+  color: #cccccc;
+}
+
+.course-descripition-list li {
+  list-style-type: disc;
 }
 
 /*# sourceMappingURL=all.css.map */

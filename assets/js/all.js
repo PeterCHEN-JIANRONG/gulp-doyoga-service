@@ -66,4 +66,28 @@ var swiper = new Swiper(".swiper-customer", {
     }
   }
 });
+var swiper = new Swiper(".swiper-level", {
+  slidesPerView: 1,
+  grid: {
+    rows: 3,
+    fill: 'row'
+  },
+  spaceBetween: 24,
+  breakpoints: {
+    768: {
+      slidesPerView: 2.2,
+      grid: {
+        rows: 1
+      },
+      spaceBetween: 30
+    },
+    992: {
+      slidesPerView: 3,
+      grid: {
+        rows: 1
+      },
+      spaceBetween: 20
+    }
+  }
+});
 //# sourceMappingURL=all.js.map
