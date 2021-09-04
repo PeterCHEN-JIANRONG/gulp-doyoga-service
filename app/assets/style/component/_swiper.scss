@@ -1,0 +1,23 @@
+.swiper-level {
+  .card-icon {
+    color: $secondary;
+  }
+
+  .active {
+    border: 4px solid white;
+
+    .card-icon {
+      color: white;
+    }
+  }
+
+  .card {
+    @include media-breakpoint-up(md) {
+      min-height: 287px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      min-height: auto;
+    }
+  }
+}
