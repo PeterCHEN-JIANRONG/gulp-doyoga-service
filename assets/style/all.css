@@ -182,6 +182,11 @@ a {
   }
 }
 
+.datepicker-cell.selected,
+.datepicker-cell.selected:hover {
+  background-color: #907A7B;
+}
+
 .banner {
   min-height: calc(100vh - 83.37px);
   background: url(../images/banner-1.jpg);

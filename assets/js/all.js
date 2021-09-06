@@ -89,5 +89,10 @@ var swiper = new Swiper(".swiper-level", {
       spaceBetween: 20
     }
   }
+}); // datepicker
+
+var elem = document.querySelector('input[name="appointment_date"]');
+var datepicker = new Datepicker(elem, {
+  autohide: true
 });
 //# sourceMappingURL=all.js.map
