@@ -89,3 +89,9 @@ var swiper = new Swiper(".swiper-level", {
     },
   }
 });
+
+// datepicker
+const elem = document.querySelector('input[name="appointment_date"]');
+const datepicker = new Datepicker(elem, {
+  autohide: true
+});
