@@ -90,6 +90,31 @@ var swiper = new Swiper(".swiper-level", {
   }
 });
 
+var swiper = new Swiper(".swiper-teachers", {
+  slidesPerView: 1,
+  grid: {
+    rows: 4,
+    fill: 'row',
+  },
+  spaceBetween: 70,
+  breakpoints: {
+    768: {
+      slidesPerView: 2.2,
+      grid: {
+        rows: 1,
+      },
+      spaceBetween: 30,
+    },
+    992: {
+      slidesPerView: 3.2,
+      grid: {
+        rows: 1,
+      },
+      spaceBetween: 30
+    },
+  }
+});
+
 // datepicker
 const elem = document.querySelector('input[name="appointment_date"]');
 const datepicker = new Datepicker(elem, {

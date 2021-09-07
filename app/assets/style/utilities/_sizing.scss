@@ -48,12 +48,36 @@
   .h-md-21s {
     height: 341px;
   }
+
+  .h-md-26s {
+    height: 420px;
+  }
+
+  .h-md-28s {
+    height: 450px;
+  }
+
+  .h-md-29s {
+    height: 464px;
+  }
 }
 
 // lg
 @include media-breakpoint-up(lg) {
   .h-lg-26s {
     height: 420px;
+  }
+
+  .h-lg-27s {
+    height: 430px;
+  }
+
+  .h-lg-28s {
+    height: 450px;
+  }
+
+  .h-lg-30s {
+    height: 480px;
   }
 }
 
