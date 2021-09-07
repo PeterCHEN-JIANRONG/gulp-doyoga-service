@@ -4,6 +4,23 @@
   width: $spacer * 6;
 }
 
+.w-7s {
+  width: 120px;
+}
+
+// md
+@include media-breakpoint-up(md) {
+  .w-md-17 {
+    width: 270px;
+  }
+}
+
+//lg
+@include media-breakpoint-up(lg) {
+  .w-lg-22 {
+    width: 350px;
+  }
+}
 
 // height
 .h-15s {
@@ -22,6 +39,10 @@
 @include media-breakpoint-up(md) {
   .h-md-15s {
     height: 252px;
+  }
+
+  .h-md-21s {
+    height: 341px;
   }
 }
 
