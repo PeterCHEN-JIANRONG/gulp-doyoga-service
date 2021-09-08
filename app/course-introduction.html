@@ -43,7 +43,7 @@ current: course-introduction
         <div class="col-lg-9">
           <div class="row">
             <div class="col-md-6 col-lg-7 mb-6 mb-md-7 mb-lg-6">
-              <div class="card bg-dark text-white position-relative border-0">
+              <div class="card bg-dark text-white position-relative border-0 cursor-pointer" data-bs-toggle="modal" data-bs-target="#courseModal">
                 <img src="./assets/images/featured-1.jpg" class="card-img h-13s img-cover" alt="瑜珈動作圖">
                 <div class="card-img-overlay d-flex flex-column justify-content-end p-5">
                   <h3 class="card-title">基礎 Basic</h3>
@@ -53,7 +53,7 @@ current: course-introduction
               </div>
             </div>
             <div class="col-md-6 col-lg-5 mb-6 mb-md-7 mb-lg-6">
-              <div class="card bg-dark text-white position-relative border-0">
+              <div class="card bg-dark text-white position-relative border-0 cursor-pointer" data-bs-toggle="modal" data-bs-target="#courseModal">
                 <img src="./assets/images/featured-2.jpg" class="card-img h-13s img-cover" alt="瑜珈動作圖">
                 <div class="card-img-overlay d-flex flex-column justify-content-end p-5">
                   <h3 class="card-title">艾揚格 Iyengar</h3>
@@ -63,7 +63,7 @@ current: course-introduction
               </div>
             </div>
             <div class="col-md-6 col-lg-5 mb-6 mb-md-7 mb-lg-6">
-              <div class="card bg-dark text-white position-relative border-0">
+              <div class="card bg-dark text-white position-relative border-0 cursor-pointer" data-bs-toggle="modal" data-bs-target="#courseModal">
                 <img src="./assets/images/featured-3.jpg" class="card-img h-13s img-cover" alt="瑜珈動作圖">
                 <div class="card-img-overlay d-flex flex-column justify-content-end p-5">
                   <h3 class="card-title">哈達 Hatha</h3>
@@ -73,7 +73,7 @@ current: course-introduction
               </div>
             </div>
             <div class="col-md-6 col-lg-7 mb-6 mb-md-7 mb-lg-6">
-              <div class="card bg-dark text-white position-relative border-0">
+              <div class="card bg-dark text-white position-relative border-0 cursor-pointer" data-bs-toggle="modal" data-bs-target="#courseModal">
                 <img src="./assets/images/featured-4.jpg" class="card-img h-13s img-cover" alt="瑜珈動作圖">
                 <div class="card-img-overlay d-flex flex-column justify-content-end p-5">
                   <h3 class="card-title">寰宇 Universal</h3>
@@ -83,7 +83,7 @@ current: course-introduction
               </div>
             </div>
             <div class="col-md-6 col-lg-7 mb-6 mb-md-7 mb-lg-6">
-              <div class="card bg-dark text-white position-relative border-0">
+              <div class="card bg-dark text-white position-relative border-0 cursor-pointer" data-bs-toggle="modal" data-bs-target="#courseModal">
                 <img src="./assets/images/featured-5.jpg" class="card-img h-13s img-cover" alt="瑜珈動作圖">
                 <div class="card-img-overlay d-flex flex-column justify-content-end p-5">
                   <h3 class="card-title">雙人飛行 Arco Yoga</h3>
@@ -93,7 +93,7 @@ current: course-introduction
               </div>
             </div>
             <div class="col-md-6 col-lg-5 mb-6 mb-md-7 mb-lg-6">
-              <div class="card bg-dark text-white position-relative border-0">
+              <div class="card bg-dark text-white position-relative border-0 cursor-pointer" data-bs-toggle="modal" data-bs-target="#courseModal">
                 <img src="./assets/images/featured-6.jpg" class="card-img h-13s img-cover" alt="瑜珈動作圖">
                 <div class="card-img-overlay d-flex flex-column justify-content-end p-5">
                   <h3 class="card-title">阿斯坦加 Ashtanga</h3>
@@ -103,7 +103,7 @@ current: course-introduction
               </div>
             </div>
             <div class="col-md-6 col-lg-5 mb-6 mb-md-7 mb-lg-0">
-              <div class="card bg-dark text-white position-relative border-0">
+              <div class="card bg-dark text-white position-relative border-0 cursor-pointer" data-bs-toggle="modal" data-bs-target="#courseModal">
                 <img src="./assets/images/featured-7.jpg" class="card-img h-13s img-cover" alt="瑜珈動作圖">
                 <div class="card-img-overlay d-flex flex-column justify-content-end p-5">
                   <h3 class="card-title">陰陽 Yin Yang</h3>
@@ -113,7 +113,7 @@ current: course-introduction
               </div>
             </div>
             <div class="col-md-6 col-lg-7 mb-6 mb-md-7 mb-lg-0">
-              <div class="card bg-dark text-white position-relative border-0">
+              <div class="card bg-dark text-white position-relative border-0 cursor-pointer" data-bs-toggle="modal" data-bs-target="#courseModal">
                 <img src="./assets/images/featured-8.jpg" class="card-img h-13s img-cover" alt="瑜珈動作圖">
                 <div class="card-img-overlay d-flex flex-column justify-content-end p-5">
                   <h3 class="card-title">香氛 Aroma Yoga</h3>
@@ -209,3 +209,35 @@ current: course-introduction
     </div>
   </div>
 </section>
+
+
+<!-- courseModal -->
+<div class="modal fade" id="courseModal" tabindex="-1" aria-labelledby="courseModalLabel" aria-hidden="true">
+
+      <div class="modal-dialog modal-dialog-centered course-modal">
+        <div class="modal-content bg-primary">
+          <!-- <div class="modal-header">
+            <h5 class="modal-title" id="courseModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div> -->
+          <div class="modal-body px-5 px-md-7 py-6 py-md-8">
+            <div class="row align-items-md-center">
+              <div class="col-md-6 mb-4 mb-md-0">
+                <img src="./assets/images/teaching-1.jpg" class="h-20s h-md-26s rounded-1s img-cover w-100" alt="教學徒">
+              </div>
+              <div class="col-md-6">
+                <h2 class="modal-title h3 text-white mb-1">基礎 Basic</h2>
+                <h3 class="h6 text-white fw-normal mb4 d-flex align-items-center">授課老師：Carol Tang<small class="fw-light rounded-pill bg-secondary ms-2 px-3 py-1">60 min</small></h3>
+                <p class="text-white fw-normal mb-3">使用掛布懸掛在半空，進行哈達瑜珈體位法練習 藉由地心引力的重力原理，鍛鍊核心肌群，舒緩脊椎壓力。<br>訓練身體協調性，深層放鬆身體。<br>課堂裡老師會視同學狀況安排教導倒立動作，對於不敢嘗試倒立的同學來說，藉由掛布的支持與保護，加上老師細心指導，讓同學能更快掌握。</p>
+                <a href="./reserve-case.html" class="btn btn-light btn-lg text-secondary stretched-link">立即預約</a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+
+</div>
