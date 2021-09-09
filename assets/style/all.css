@@ -31,6 +31,10 @@
   height: 238px;
 }
 
+.h-20s {
+  height: 320px;
+}
+
 .h-26s {
   height: 420px;
 }
@@ -172,14 +176,26 @@
   }
 }
 
+.border-end-2 {
+  border-right: 2px solid #dee2e6;
+}
+
 @media (min-width: 992px) {
   .bg-lg-white {
     background-color: white !important;
   }
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .list-style-type-disc li {
   list-style-type: disc;
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
 }
 
 body {
@@ -230,6 +246,55 @@ a {
 .datepicker-cell.selected,
 .datepicker-cell.selected:hover {
   background-color: #907A7B;
+}
+
+@media (min-width: 576px) {
+  .course-modal {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .course-modal {
+    max-width: 690px;
+  }
+}
+
+@media (min-width: 992px) {
+  .course-modal {
+    max-width: 920px;
+  }
+}
+
+.scrollbar-secondary {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.scrollbar-secondary::-webkit-scrollbar {
+  height: 8px;
+  border-radius: 16px;
+}
+
+.scrollbar-secondary::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 16px;
+}
+
+.scrollbar-secondary::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 16px;
+}
+
+.scrollbar-secondary::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 16px;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
 }
 
 .banner {
