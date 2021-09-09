@@ -35,6 +35,10 @@
   height: 320px;
 }
 
+.h-22s {
+  height: 350px;
+}
+
 .h-26s {
   height: 420px;
 }
@@ -45,12 +49,24 @@
 
 // md
 @include media-breakpoint-up(md) {
+  .h-md-10s {
+    height: 161px;
+  }
+
+  .h-md-13s {
+    height: 210px;
+  }
+
   .h-md-15s {
     height: 252px;
   }
 
   .h-md-21s {
     height: 341px;
+  }
+
+  .h-md-22s {
+    height: 350px;
   }
 
   .h-md-26s {
@@ -68,6 +84,14 @@
 
 // lg
 @include media-breakpoint-up(lg) {
+  .h-lg-13s {
+    height: 196px;
+  }
+
+  .h-lg-22s {
+    height: 350px;
+  }
+
   .h-lg-26s {
     height: 420px;
   }

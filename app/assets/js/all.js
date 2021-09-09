@@ -27,6 +27,7 @@ $(function () {
     }
   };
   const enableSwiper = function () {
+    // ./index - 精心設計、課程多元
     mySwiper = new Swiper('.swiper-course', {
       slidesPerView: 1.5,
       spaceBetween: 30,
@@ -39,7 +40,7 @@ $(function () {
   breakpointChecker();
 })(); /* IIFE end */
 
-
+// ./index - 聽聽他們怎麼說
 var swiper = new Swiper(".swiper-customer", {
   slidesPerView: 1,
   grid: {
@@ -65,6 +66,7 @@ var swiper = new Swiper(".swiper-customer", {
   }
 });
 
+// ./reserve-case - 選擇課程階級
 var swiper = new Swiper(".swiper-level", {
   slidesPerView: 1,
   grid: {
@@ -90,6 +92,7 @@ var swiper = new Swiper(".swiper-level", {
   }
 });
 
+// ./course-introduction - 師資介紹
 var swiper = new Swiper(".swiper-teachers", {
   slidesPerView: 1,
   grid: {
@@ -111,6 +114,20 @@ var swiper = new Swiper(".swiper-teachers", {
         rows: 1,
       },
       spaceBetween: 30
+    },
+  }
+});
+
+// ./space - 課程推薦
+var swiper = new Swiper(".swiper-course-recommend", {
+  slidesPerView: 1.2,
+  spaceBetween: 30,
+  breakpoints: {
+    768: {
+      slidesPerView: 3,
+    },
+    992: {
+      slidesPerView: 4.2,
     },
   }
 });
