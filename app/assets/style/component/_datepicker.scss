@@ -1,4 +1,26 @@
+.datepicker-secondary {
+  color: $secondary;
+}
+
 .datepicker-cell.selected,
 .datepicker-cell.selected:hover {
   background-color: $secondary;
+}
+
+.datepicker-main {
+  .days-of-week .dow {
+    color: $secondary;
+    font-weight: 500;
+  }
+
+  .datepicker-grid {
+    .day {
+      color: $secondary;
+    }
+
+    .prev,
+    .next {
+      color: $primary;
+    }
+  }
 }
