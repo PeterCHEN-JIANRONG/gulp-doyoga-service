@@ -269,9 +269,27 @@ a {
   }
 }
 
+.datepicker-secondary {
+  color: #907A7B;
+}
+
 .datepicker-cell.selected,
 .datepicker-cell.selected:hover {
   background-color: #907A7B;
+}
+
+.datepicker-main .days-of-week .dow {
+  color: #907A7B;
+  font-weight: 500;
+}
+
+.datepicker-main .datepicker-grid .day {
+  color: #907A7B;
+}
+
+.datepicker-main .datepicker-grid .prev,
+.datepicker-main .datepicker-grid .next {
+  color: #C0A4A5;
 }
 
 @media (min-width: 576px) {

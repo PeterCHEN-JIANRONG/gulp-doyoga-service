@@ -134,6 +134,9 @@ var swiper = new Swiper(".swiper-course-recommend", {
 
 var elem = document.querySelector('input[name="appointment_date"]');
 var datepicker = new Datepicker(elem, {
-  autohide: true
+  autohide: true,
+  buttonClass: "btn datepicker-secondary fw-bold hover-secondary-1",
+  nextArrow: ">",
+  prevArrow: "<"
 });
 //# sourceMappingURL=all.js.map
