@@ -31,3 +31,13 @@
     font-size: $font-size-base;
   }
 }
+
+// placeholder
+.placeholder-primary {
+
+  &::placeholder,
+  :-ms-input-placeholder,
+  ::-ms-input-placeholder {
+    color: $primary;
+  }
+}
